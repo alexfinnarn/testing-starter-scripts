@@ -9,7 +9,7 @@ earlyexit
 echo "Enabling additional testing modules..."
 
 echo "Enabling contrib modules..."
-"{$HOME}"/.composer/vendor/bin/drush en "${ADD_CONTRIB_MODULES}" -y
+"${HOME}"/.composer/vendor/bin/drush en "${ADD_CONTRIB_MODULES}" -y
 earlyexit
 
 echo "Enabling custom modules..."
